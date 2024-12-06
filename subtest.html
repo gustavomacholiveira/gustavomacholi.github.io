@@ -12,11 +12,16 @@
     <div id="welcomeModal" aria-labelledby="modalTitle" role="dialog">
         <div id="modalContent">
             <h1 id="modalTitle">Análise da qualidade da execução da flexibilidade no trompete</h1>
-            <p>Prezado participante, obrigado por colaborar com nossa pesquisa...</p>
+            <p>Prezado participante, obrigado por colaborar com nossa pesquisa. Esta é uma pesquisa sobre a qualidade da execução da flexibilidade no trompete que está sendo realizada pelo pesquisador Gustavo Machado Oliveira, doutorando na Escola de Música da Universidade Federal de Minas Gerais sob supervisão do professor Maurício Alves Loureiro no - <a href="https://musica.ufmg.br/cegeme/" target="_blank">Centro de Estudos do Gesto Musical e Expressão</a>.</p>
+    
+            <p>A pesquisa dura em média 10 minutos e você pode desistir de participar dela a qualquer momento. Ao enviar seus dados, você aceita e concorda em disponibilizá-los para a pesquisa em questão. Estes dados deverão ser anonimizados após a coleta ser encerrada e os dados pessoais serão utilizados apenas para a identificação da população participante da pesquisa.</p>
+            <p>Este formulário tem como objetivo coletar a sua avaliação sobre a qualidade da execução da técnica de flexibilidade no trompete. Para isso, você irá ouvir uma série de áudios de trompetistas executando transições de notas utilizando a técnica de flexibilidade e deverá avaliar a qualidade da execução de cada áudio de acordo com critérios pré-definidos informados ao longo deste questionário.</p>
+            <p>Sua participação é extremamente importante para nos ajudar a entender quais são as características mais relevantes para avaliar a qualidade da execução da flexibilidade no trompete. Além disso, a sua opinião pode contribuir para o aprimoramento de técnicas de ensino e treinamento de trompetistas.</p>
+            <p>Agradecemos antecipadamente a sua participação e contribuição para este estudo.</p>
+            <p>É necessário utilizar fones de ouvido nesta pesquisa.</p>
             <p>Certifique-se de ouvir o áudio completo, pois há uma pausa entre as sequências de notas.</p>
-            <p>Caso queira, é possível requisitar que seus dados sejam removidos enviando um e-mail ao pesquisador 
-                <a href="mailto:gustavomacholi@gmail.com">gustavomacholi@gmail.com</a>.
-            </p>
+            <p>Caso queira, é possível requisitar que seus dados sejam removidos do banco de respostas desta pesquisa, bastando, para isto, enviar um e-mail ao pesquisador 
+            <a href="mailto:gustavomacholi@gmail.com">gustavomacholi@gmail.com</a></p>
             <button id="closeModalBtn" aria-label="Fechar o modal">Entendido</button>
         </div>
     </div>
@@ -25,7 +30,14 @@
     <main>
         <h1>Teste Subjetivo</h1>
         <section id="instrucoes-teste" style="display:none;">
-            <p>Escute atentamente cada áudio e avalie os critérios abaixo...</p>
+            <p>Escute atentamente cada áudio apresentado abaixo e avalie a qualidade de cada critério de acordo com a escala de 1 a 5, onde 1 significa ruim e 5 excelente. Para acessar os áudios é necessário clicar no link respectivo ao áudio, por exemplo: "Áudio 1". Ouça atentamente cada áudio quantas vezes julgar necessário.</p>
+            <p>Tente ser o mais objetivo possível em sua avaliação, levando em conta apenas os critérios descritos abaixo:</p>
+            <ul>
+                <li><strong>Precisão de afinação:</strong> avalie o desvio de afinação para o alcance da nota alvo.</li>
+                <li><strong>Agilidade de mudança (duração de transição):</strong> avalie o tempo gasto na mudança de nota.</li>
+                <li><strong>Andamento:</strong> avalie a manutenção do andamento.</li>
+                <li><strong>Dinâmica:</strong> avalie a variação de intensidade.</li>
+            </ul>
         </section>
 
         <!-- Informações do Participante -->
@@ -82,7 +94,6 @@
                     <button class="button5" onclick="proximoAudio()">Ok</button>
                 </div>
 
-                <!-- Críticas -->
                 <div id="form-critica" style="display: none;">
                     <label for="critica">Você tem alguma dica ou crítica sobre o conteúdo apresentado neste formulário?</label><br>
                     <textarea id="critica" name="critica" rows="4" cols="50" placeholder="Digite sua crítica ou sugestão aqui..."></textarea>
@@ -96,3 +107,4 @@
     </main>
 </body>
 </html>
+
